@@ -1,0 +1,123 @@
+.contact {
+    margin-top: 5.2rem;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("../asset/img/slide_01-effect3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact-wrapper {
+    margin: 1rem;
+    margin-bottom: 1rem;
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255,0.015);
+    backdrop-filter: blur(3rem);
+    box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+}
+
+form h2 {
+    margin: 0;
+    padding-top: 0;
+    color: #f4f4f4;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.input-group { 
+    position: relative;
+    margin: 1rem 1rem;
+    width: 25rem;
+}
+
+.input-group input {
+    width: 100%;
+    height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    color: #f4f4f4;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #e9e9ee;
+}
+
+.input-group label {
+    color: white;
+}
+
+.input-group select {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.input-group option {
+    font-size: 1.5rem;
+}
+.input-group textarea {
+    width: 100%;
+    height: 6rem;
+    font-size: 1.5rem;
+}
+
+
+
+.input-group button {
+    width: 100%;
+    height: 3.5rem;
+    background: rgba(255, 255, 255,0.15);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+@media only screen and (max-width: 500px) {
+form h2 {
+    width: 100%;
+}
+.contact {
+    width: 100%;
+    margin-left: 0.5rem;
+}
+.contact-wrapper {
+    width: 100%;
+    margin-left: 0.5rem;
+}
+.input-group {
+    width: 95%;
+    margin-left: 0.5rem;
+    
+}
+.input-group input {
+    width: 95%;
+}
+.input-group button {
+    width: 90%;
+}
+.input-group select {
+    width: 95%;
+    margin-left: 0;
+}
+.input-group textarea {
+    width: 95%;
+
+}
+}
